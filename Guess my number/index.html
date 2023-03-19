@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="overlay hidden "></div>
+        <div style="display: flex;justify-content: space-between;">
+            <button class="rule-btn" style="margin-left: 5px;padding: 8px;background: linear-gradient(orange,yellow);border-radius: 8px;">
+                Game Rules
+            </button>
+            <div class="modal hidden">
+                <button class="btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+               <span>
+
+                   PLEASE enter the number between 1 to 20? 
+               </span>
+                
+            </div>
+            <button class="again-btn" style="margin-right: 5px;padding: 8px;background: linear-gradient(orange,yellow);border-radius: 8px;">
+                Play again
+            </button>
+        </div>
+        <br>
+        <div style="margin: 0 auto;text-align: center;">
+            <h1 style="margin: 0 auto;">I am thinking the number between 1 to 20 <br> Can you Guess it? <br></h1> 
+        </div>
+        <br>
+        <div class="guessnum-box">
+            <div>            
+                <h2>Start Guessing...</h2>
+                <h3 class="numbox">?</h3>  
+            </div>
+            <br>     
+            <br>
+            <div>
+                <h3>Score: <span class="score"> 20 </span></h3>
+                <h3>High Score: <span class="high-score">0</span> </h3>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div class="input">
+                <input type="number" class="UserInput" style="display: flex;margin: 0 auto;">
+            </div>
+            <br>
+            <div style="display: flex;align-items: center;">
+                <button class="checkbutton">Guess</button>
+
+            </div>
+        </div>
+        <div class="msg-show">
+            <div class="msg-win hidden">
+                <h1>You won!</h1>
+            </div>
+            <div class="msg-lose hidden">
+                <h3>Sorry you loose the Game</h3>
+            </div>
+        </div>
+        <br>
+        
+    
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

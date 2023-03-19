@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-color: black;
+    width: 210vh;
+    height: 100vh;
+}
+.navbar{
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 550px;
+    
+}
+.portfolio{
+    font-size: 35px;
+    color: white;
+    padding: 20px 40px;
+}
+span{
+    color: #f9004d;
+}
+.navbar .Home{
+    color: #f9004d;
+}
+.navbar ul li{
+    display:inline-block;
+    padding: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}    
+.content{
+    position: relative;
+    left: 150px;
+}
+.content h1{
+    font-size: 50px;
+    color: white;
+}
+.content h4{
+    color: white;
+    font-size: 30px;
+}
+.content h3{
+    color: #f9004d;
+    font-size: 35px;
+}
+.contact-us ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 20%;
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+}
+.contact-us .fb-logo{
+    color: #4267B2;
+}
+.contact-us .inta-logo{
+    color: 	#5B51D8;
+}
+.contact-us .twitter-logo{
+    color: #1DA1F2;
+}
+.contact-us .git-logo{
+    color: #4e4949;
+}
+.about{
+    text-align: center;
+}
+.card{
+    text-align: center;
+    padding-left: -20px;
+    padding-right: -20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    position: relative;
+    right: 190px;    
+    font-size: 18px;
+    width: 62%;
+}
+.card h5{
+    font-size: 20px;
+}
+#card{
+    text-align: center;
+    padding-left: -40px;
+    padding-right: -20px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    font-size: 18px;
+    position: relative;
+    right: 385px;
+    /* width: 65%;   */
+}
+#card h5{
+    font-size: 20px;
+}
+
+#card1{
+    text-align: center;
+    padding-left: -20px;
+    padding-right: -20px;
+    padding-bottom: 20px;
+    margin-left: 420px;
+    position: relative;
+    bottom: 195px;
+    left: 485px;
+}
+.card:hover{
+    border: none;
+    box-shadow: 0px 0px 9px #f9004d;
+    background-color: #f9004d;
+    transition: 2s;
+}
+h2{
+    position: relative;
+    text-align: center;
+    bottom: 250px;
+}
+
+

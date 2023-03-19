@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(purple,blue);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.box{
+    position: relative;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-color: #3AAAFA;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 650px;
+}
+.input input{
+    padding: 20px 0px;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+    font-size: 20px;
+}
+.checkbutton{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    transition: 2s linear ease-in-out;
+}
+.checkbutton:hover{
+    transform: scale(1.05);
+}
+.guessnum-box{
+    text-align: center;
+}
+.numbox{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    padding: 30px;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 120px;
+    border: 5px solid yellow;
+    margin: 0 auto;
+}   
+.overlay{
+    /* background-color: black; */
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    height: 50px;
+ } 
+.hidden{
+    display: none;
+}
+.modal span{
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(185, 51, 51);
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 50px auto 0 auto;
+    z-index: 2;
+}
+.msg-show{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}

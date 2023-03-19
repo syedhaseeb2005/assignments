@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;  
+}
+.navbar-brand img{
+    margin-left: 50px;
+    font-size: 10px;
+}
+.nav-item button{
+    padding: 1px 3px 1px 3px;
+    margin-bottom: 3px;
+    background-color: white;
+    border: 2px solid black;
+}
+.nav-item button:hover{
+    color: red;
+    border: 2px solid red;
+}
+.fa-solid:hover{
+    color: red;
+}
+
+.img-fluid{
+    height: 100vh;
+    width: 200vw;
+    background-size: cover;
+}
+.img-text{
+    position: absolute;
+    top: 500px;
+    margin-left: 20px;
+    color: white;
+}
+.carousel-item{
+    margin-left: 20px;
+}
+button.more-btn{
+    margin-top: 100px;
+    /* color: red; */
+}
+.more-btn:hover{
+    /* background-color: red; */
+    color: #f1777c;
+}
+.slider-text{
+    position: relative;
+    font-size: 15px;
+    left: 690px;
+    bottom: 380px;    
+}
+.img-1{
+    box-shadow: 0 0 150px 10px black inset;
+}
+
+.img-1 h3{
+    color: white;
+}
+.img-1 p{
+    color: white;
+    font-weight: bold;
+}
+.img-text-2{
+    margin-left: 20px;
+    /* margin-bottom: 50px; */
+}
+.img-2{
+    box-shadow: 0 0 150px 10px black inset;
+}
+.img-2 h3{
+    color: white;
+}
+.img-2 p{
+    color: white;
+    font-weight: bold;
+}
+.img-text-3{
+    margin-left: 20px;
+}
+.offcanvas-body{
+    color: white;
+    background-color: white;
+}
+/* .mb-2 {
+    background-color: aqua;
+    width: 100%;
+} */
+@media (min-width:360px) and (max-width: 535px) {
+    body{
+        display: inline-flexbox;
+        align-items: center;
+    }
+    .navbar-brand img{
+        position: relative;
+        left: 50px;
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 285px;
+    }
+    .img-text{
+        position: relative;
+        top: -150px;
+        font-weight: bold;
+    }
+    .slide{
+        height: 100vh;
+        width: 100vh;
+    }
+    .mt-3{
+        font-weight: bold;
+        color: blue;
+        position: relative;
+        bottom: 100px;
+    }
+    .slide{
+        position: relative;
+        bottom: 50px;
+        height: 330px;
+        width: 360px;
+    }
+    .carousel-inner img{
+        position: relative;
+        right: 20px;
+        height: 200px;
+        width: 400px;
+        /* bottom: 70px; */
+    }
+    .carousel-item .slider-text{
+        position: relative;
+        top: 10px;
+        left: -10px;
+        width: 100%;
+        font-size: 10px;
+    }
+    .carousel-item h3{
+        font-size: 17px;
+    }
+    .more-btn{
+        position: relative;
+        top: 140px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .d-flex img{
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+    }
+    #d-flex h6{
+        width: 53%;
+        position: relative;
+        left: 150px;
+        bottom: 140px;
+        /* font-size: 10px; */
+    }
+    #d-flex p{
+        position: relative;
+        right: 50px;
+        bottom: 130px;
+    }
+    .fw-bold1{
+        position: relative;
+        right: 90px;   
+    }
+    .pt-3{
+        position: relative;
+        left: 180px;
+        top: -51px;
+    }
+    .fw-bold{
+        font-size: 23px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+    #updates-flexbox h6{
+        width: 40%;
+        position: relative;
+        left: 158px;
+        bottom: 120px;
+
+    }
+    #updates-flexbox p{
+        position: relative;
+        right: 38px;
+        bottom: 120px;
+    }
+    .text-center h6{
+        position: relative;
+        right: 20px;    
+    }
+    .content-1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    .para-1{
+        font-size: 5px;
+        width: 50%;
+        display: inline-block;
+    }
+    
+
+
+}
