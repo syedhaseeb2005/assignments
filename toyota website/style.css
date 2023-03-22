@@ -43,13 +43,12 @@
 .carousel-item{
     margin-left: 20px;
 }
-button.more-btn{
-    margin-top: 100px;
-    /* color: red; */
+.more-btn{
+    margin-top: -50px;
+    color: black;
 }
 .more-btn:hover{
-    /* background-color: red; */
-    color: #f1777c;
+    color: #8B0000;    
 }
 .slider-text{
     position: relative;
