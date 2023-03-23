@@ -12,15 +12,10 @@ html{
     width: 210vh;
     height: 100vh;
 }
+
 .navbar{
-    margin-right: 20px;
-    list-style: none;
+    /* background-color: black; */
     color: white;
-    padding: 20px;
-    position: relative;
-    bottom: 100px;
-    left: 550px;
-    
 }
 .portfolio{
     font-size: 35px;
@@ -30,14 +25,8 @@ html{
 span{
     color: #f9004d;
 }
-.navbar .Home{
-    color: #f9004d;
-}
-.navbar ul li{
-    display:inline-block;
-    padding: 30px;
-}
-.navbar a{
+
+.navbar-nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
